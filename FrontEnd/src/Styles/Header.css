@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.629);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+nav {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30vw;
+  text-transform: uppercase;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3vw;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.SignIn {
+  font-size: 24px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  background-color: #520E96;
+  color: #FFFF;
+  border-radius: 10px;
+}
+
+.items {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+.items:hover {
+  color: #520E96;
+}

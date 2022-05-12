@@ -1,0 +1,64 @@
+.createPort {
+  width: 100%;
+  height: 1080px;
+  background-image: url(../Assets/Create.png);
+  font-family: Open sans;
+}
+
+.introduction {
+  text-align: center;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+
+.clock {
+  width: 20px;
+  height: 20px;
+}
+
+.crate-create {
+  color: #520E96;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.paragrafo-create {
+  color: #333333;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.title-create {
+  display: flex;
+}
+
+.h1-person {
+  font-size: 36px;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+.paragrafo-box-create {
+  margin-left: 10%;
+  font-size: 20px;
+  font-weight: 200;
+  width: 40%;
+  color: 2F2F2F;
+}
+
+.boxes-createe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15vw;
+}
+
+.box-create-columm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 15%;
+  gap: 25vh;
+}
